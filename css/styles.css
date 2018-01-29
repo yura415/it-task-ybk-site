@@ -1,0 +1,81 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+
+header {
+  font-size: 3em;
+  height: 1.7em;
+  margin-left:1rem;
+}
+
+nav {
+  height: 2em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+  display: block;
+  height: 2em;
+  line-height: 2em;
+  padding: 0 5px;
+  background: #393939;
+}
+
+nav ul li.active {
+  background: rgb(191, 191, 191);
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+}
+
+.main-section {
+  margin-top:1em;
+  padding: 1em;
+  -webkit-box-shadow: 7px 7px 20px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 7px 20px -5px rgba(0,0,0,0.75);
+  box-shadow: 7px 7px 20px -5px rgba(0,0,0,0.75);
+}
+
+.box {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 2px;
+  margin: 1em;
+}
+
+.place-image {
+  width: 270px;
+  margin-right: 1em;
+}
+
+.place-container {
+  height: 300px;
+}
+
+.place-container::after {
+  clear: both;
+}
+
+blockquote {
+  display: inline;
+  font-style: italic;
+}
+
+.author-pic {
+  width: 200px;
+  margin-right: 1em;
+}
+
+.section-author {
+  height: 400px;
+}
